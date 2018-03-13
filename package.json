@@ -1,6 +1,6 @@
 {
   "name": "npm-yuan",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "npm镜像切换 NPM mirror image switching",
   "main": "index.js",
   "preferGlobal": "true",
@@ -10,6 +10,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "npm",
+    "mirror",
+    "cnpm"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hold-baby/npm-yuan.git"
