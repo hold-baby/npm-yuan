@@ -1,7 +1,7 @@
 {
   "name": "npm-yuan",
-  "version": "0.1.6",
-  "description": "npm镜像切换",
+  "version": "0.1.7",
+  "description": "npm镜像切换工具",
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {
