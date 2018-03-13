@@ -1,7 +1,7 @@
 {
   "name": "npm-yuan",
-  "version": "0.1.4",
-  "description": "npm镜像切换 NPM mirror image switching",
+  "version": "0.1.5",
+  "description": "npm镜像切换",
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {

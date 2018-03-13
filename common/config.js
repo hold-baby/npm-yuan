@@ -2,7 +2,7 @@ var pkg = require('../package.json');
 
 var version = [
 	'/**!',
-	' * ' + pkg.author + ' - v' + pkg.version +'',
+	' * ' + (typeof pkg.author == 'string' ? pkg.author : pkg.author.name).blue + ' - v' + pkg.version.yellow +'',
 	' * ' + pkg.description + '',
 	'*/',
 	''
