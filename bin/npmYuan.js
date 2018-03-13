@@ -1,4 +1,5 @@
 var program = require('commander');
+var colors = require('colors');
 var pkg = require('../package.json');
 var config = require('../common/config.js');
 var yuanSet = require('../common/cmd.js').yuanSet;
@@ -8,9 +9,10 @@ var show = require('../common/cmd.js').show;
  * Module dependencies.
  */
 program
-  .version(pkg.version, '-v, --version')
-  .option('to', 'yuan')
-  .option('show', 'show')
+  .usage("npm-yuan")
+  .version(config.version, '-v, --version', pkg.version)
+  .option('to', '设置taobao/npm源')
+  .option('show', '显示当前npm源')
   .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
   .parse(process.argv);
  
@@ -27,7 +29,7 @@ if (program.to) {
 			yuanSet(args[0])
 			break;
 		default:
-			console.log('default')
+			console.log('请使用 npm-yuan to taobao 或 npm-yuan to npm'.red);
 	}
 }
 
