@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
 var program = require('commander');
 var colors = require('colors');
 var pkg = require('../package.json');
