@@ -3,7 +3,7 @@
 
 # 安装
 ```bash
-npm install -g npm-yuan
+npm install -g npm-yuan --registry=https://registry.npm.taobao.org
 ```
 # 使用
 ```bash
