@@ -1,14 +1,11 @@
 {
   "name": "npm-yuan",
-  "version": "0.1.11",
+  "version": "0.1.22",
   "description": "npm镜像切换工具",
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {
     "npm-yuan": "bin/npmYuan.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "npm",
